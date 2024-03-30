@@ -8,10 +8,10 @@ DESCRIPTION = 'm3u8get: Get m3u8 video file.'
 NAME = 'm3u8get'
 AUTHOR = 'Tomohiro Arikita'
 AUTHOR_EMAIL = 'alisan802@proton.me'
-URL = '' '''ToDo'''
+URL = 'https://github.com/alisan802/m3u8get'
 LICENSE = 'MIT'
 DOWNLOAD_URL = URL
-VERSION = '0.1.0'
+VERSION = '0.0.4'
 PYTHON_REQUIRES = '>=3.8'
 INSTALL_REQUIRES = [
     'requests>=2.31.0'

@@ -48,7 +48,7 @@ def ip_host() -> dict:
     return ip_host_resp
 
 
-if __name__ == '__main__':
+def main():
     import argparse
     parser = argparse.ArgumentParser(description='Get m3u8 video file.')
     parser.add_argument(
@@ -65,3 +65,7 @@ if __name__ == '__main__':
     else:
         pass
     m3u8get(args.m3u8url)
+
+
+if __name__ == '__main__':
+    main()

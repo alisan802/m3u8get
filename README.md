@@ -7,7 +7,7 @@ This is a Python module that downloads m3u8 files and all video files defined wi
 Execute the following command.
 
 ```bash
-$ python m3u8get.py [m3u8 HTTP URL]
+$ python -m m3u8get [m3u8 HTTP URL]
 ```
 
 ## LICENSE
